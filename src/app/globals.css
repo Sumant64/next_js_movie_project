@@ -1,0 +1,47 @@
+/* Box sizing rules */
+ *, 
+ *::before,
+ *::after {
+  box-sizing: border-box;
+ }
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+/* Remove default margin and padding */
+html,
+body, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* add border box to images */
+img {
+  border: 0;
+}
+
+/* styling the text */
+
+h1 {
+  font-size: 5.8rem;
+  color: #161617;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+}
